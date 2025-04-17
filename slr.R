@@ -12,3 +12,6 @@ plot(x, y, main = "Simple Linear Regression",
      xlab = "Independent Variable (x)",
      ylab = "Dependent Variable (y)")
 abline(model, col = "blue")
+
+# second plot
+plot(x, y)
