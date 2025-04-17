@@ -6,3 +6,9 @@ y <- rnorm(100, mean = 100, sd = 20)
 model <- lm(y ~ x)
 # Display the summary of the model
 summary(model)
+
+# Plot the data and the regression line
+plot(x, y, main = "Simple Linear Regression",
+     xlab = "Independent Variable (x)",
+     ylab = "Dependent Variable (y)")
+abline(model, col = "blue")
